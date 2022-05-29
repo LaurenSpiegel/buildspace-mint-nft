@@ -1,15 +1,14 @@
-# Basic Sample Hardhat Project
+# buildspace project -- mint your own nft collection
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+buildspace project description -- https://buildspace.so/p/mint-nft-collection
 
-Try running some of the following tasks:
+Uses hardhat to set up and deploy a solidity contract that
+allows a user to a web app create a new NFT in the collection.
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+Frontend was built on replit.com -- https://nft-starter-project.laurenthelauren.repl.co/
+
+To deploy contract on goerli testnet:
+`npx hardhat run scripts/deploy.js --network goerli`
+
+After deploying, make sure to update contract address and
+`src/utils/MyEpicNFT.json` in frontend project.
