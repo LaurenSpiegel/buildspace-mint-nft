@@ -11,4 +11,4 @@ To deploy contract on goerli testnet:
 `npx hardhat run scripts/deploy.js --network goerli`
 
 After deploying, make sure to update contract address and
-`src/utils/MyEpicNFT.json` in frontend project.
+`src/utils/MyEpicNFT.json` in frontend project!
